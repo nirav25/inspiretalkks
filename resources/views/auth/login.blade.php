@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-md-4">
-            <h1 class="text-center mb-4">{{ config('app.name') }}</h1>
+            <h1 class="text-center mb-4">{{ __('Admin login') }}</h1>
             <div class="card">
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
