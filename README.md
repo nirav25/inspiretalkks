@@ -17,5 +17,6 @@ DB_PASSWORD=               (password if you set)
 
 then run command
 
-php migrate
+php artisan migrate
 
+password: $2y$10$Tzq78qWccfYSIRDdu5SpPuXwqKSXYsSwhyINdVexw4uTjxeG7yxeu
