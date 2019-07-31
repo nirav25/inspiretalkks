@@ -14,10 +14,9 @@
     @include('includes.header')
 
     <div class="d-flex">
-        @guest                           
-        @else
+        @auth
         @include('includes.sidenav')
-        @endguest
+        @endauth
         
         <div class="content p-4">
             @yield('content')
