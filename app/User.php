@@ -36,4 +36,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    const ADMIN = 'admin';
+    public function isAdmin()    {
+        return $this->type === self::ADMIN;
+    }
 }

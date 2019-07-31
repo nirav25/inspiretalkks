@@ -1,17 +1,14 @@
 <nav class="navbar navbar-expand navbar-dark bg-primary">
-        @guest
-        @else
+        @auth
         <a class="sidebar-toggle mr-3" href="#"><i class="fa fa-bars"></i></a>
-        @endguest
+        @endauth
         <a class="navbar-brand" href="{{ url('/') }}">
             {{ config('app.name', 'Laravel') }}
         </a>
 
         <div class="navbar-collapse collapse">
             <ul class="navbar-nav ml-auto">
-                @guest
-                    
-                @else
+                @auth
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             <i class="fa fa-user"></i>
@@ -38,7 +35,7 @@
                             </a>
                         </li>
                     @endif
-                @endguest
+                @endauth
             </ul>
         </div>
     </nav>
