@@ -19,4 +19,8 @@ then run command
 
 php artisan migrate
 
-password: $2y$10$Tzq78qWccfYSIRDdu5SpPuXwqKSXYsSwhyINdVexw4uTjxeG7yxeu
+password(12345678): $2y$10$Tzq78qWccfYSIRDdu5SpPuXwqKSXYsSwhyINdVexw4uTjxeG7yxeu 
+
+postman link:
+
+https://www.getpostman.com/collections/04797a3854df0a54f1b7
